@@ -40,23 +40,6 @@ class Formulario < SitePrism::Page
     list_nao.click
     sleep 1
 
-##########################ESQUECE TODA ESSA CARALHA COMENTADA QUE É O QUE NÃO FUNCIONA
-    # list_cheks = Array.new
-    # list_cheks = driver.find_elements(:xpath, "//input[@type='checkbox']")
-
-
-    # botoes = driver.find_elements(:xpath, "//button[@data-ga-action='#{tipoitem}']").size
-    #   busca = Random.rand(botoes)
-    #
-    #
-    #
-    #
-    #   List<WebElement els = driver.findElements(By.xpath("//input[@type='checkbox']"));
-    # for ( WebElement el : els ) {
-    #     if ( !el.isSelected() ) {
-    #         el.click();
-    #     }
-    # }
   end
 
   def clicar_submit
